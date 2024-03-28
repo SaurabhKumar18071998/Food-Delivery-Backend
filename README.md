@@ -5,8 +5,7 @@ This is a Node.js backend application for a food delivery system. It provides AP
 ## Features
 
 - RESTful APIs for CRUD operations on restaurants, menus, orders, and deliveries.
-- Authentication and authorization for accessing protected routes.
-- MongoDB integration for data storage.
+- PostgreSQL DB integration for data storage.
 - Error handling and validation.
 - Logging for tracking requests and errors.
 - Unit and integration tests for ensuring code quality.
