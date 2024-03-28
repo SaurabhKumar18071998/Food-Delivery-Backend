@@ -25,18 +25,20 @@ git clone https://github.com/SaurabhKumar18071998/Food-Delivery-Backend.git
 
 - cd food-delivery-backend
 
-npm install
+- npm install
 
-3. Set up environment variables:
+### Set up environment variables:
 Create a .env file in the root directory and define the following variables:
 
 - PORT, PostgreSQL_DB_URI, Hostname, DB_Port, Database
 
-4. Run the application: node src/index.js
+### Run the application: 
 
-5. You can use tools like Postman or curl to interact with the APIs. Here are some sample endpoints:
+- node src/index.js
+
+### You can use tools like Postman or curl to interact with the APIs. Here are some sample endpoints:
 
 - POST /pricing/calculate: Price Calculation according to organization id, zone, total_distance, item_type
 
-6. Testing
+### Testing
 - To Run the unit tests: npm test
