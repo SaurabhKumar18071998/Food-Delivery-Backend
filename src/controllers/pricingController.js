@@ -13,7 +13,7 @@ exports.calculatePrice = async (req, res, next) => {
 
     console.log('SQL Query:', pricing); // Log SQL query for debugging
 
-    if (pricing === null) {
+    if (pricing === null || pricing === undefined) {
       return res.status(404).json({ error: 'Pricing not found for the given organization, item type, and zone' });
     }
 
